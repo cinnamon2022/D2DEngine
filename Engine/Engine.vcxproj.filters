@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{66164620-fd86-426a-b9a7-4a56831761d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Headers">
+      <UniqueIdentifier>{c4bde220-56c8-4783-a456-283640124381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FSM">
+      <UniqueIdentifier>{5041cc06-18c6-4b2b-ab84-fcf14e957940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component">
+      <UniqueIdentifier>{972bfcfb-a004-4f61-9d99-047a9940c625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{3376950c-dec1-4ee3-89cb-9b69c091b245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D2DRenderer.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>소스 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMstate.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AIAttack.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMove.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AIIdle.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationAsset.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraScene.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationScene.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapScene.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceCounter.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D2DRenderer.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMstate.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="AIAttack.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="AIIdle.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMove.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationAsset.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationScene.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapScene.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraScene.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceCounter.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
