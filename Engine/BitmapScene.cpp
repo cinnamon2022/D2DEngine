@@ -2,6 +2,8 @@
 #include "BitmapScene.h"
 #include "D2DRenderer.h"
 
+// 123 
+
 BitmapScene::BitmapScene()
 {
 }
